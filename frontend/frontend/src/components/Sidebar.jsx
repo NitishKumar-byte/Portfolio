@@ -35,7 +35,7 @@ function Sidebar() {
 
       <div className="social-icons">
         <a
-          href="https://github.com/YOUR_GITHUB"
+          href="https://github.com/nitishkumar-byte"
           target="_blank"
           rel="noreferrer"
         >
@@ -51,7 +51,7 @@ function Sidebar() {
         </a>
 
         <a
-          href="https://instagram.com/YOUR_INSTAGRAM"
+          href="https://www.instagram.com/nitishkumar____official/"
           target="_blank"
           rel="noreferrer"
         >

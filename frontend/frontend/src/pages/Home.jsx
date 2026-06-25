@@ -1,8 +1,10 @@
 import Sidebar from "../components/Sidebar";
-import CanvasScene from "../components/CanvasScene";
 import TechStack from "../components/TechStack";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="app">
       <Sidebar />
@@ -23,18 +25,24 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button className="hero-btn">
+            <button
+              className="hero-btn"
+              onClick={() => navigate("/projects")}
+            >
               View My Work →
             </button>
 
-            <button className="cv-btn">
-              Download CV ↓
+            <button
+              className="cv-btn"
+              onClick={() => navigate("/contact")}
+            >
+              Hire Me →
             </button>
           </div>
         </div>
 
         <div className="right-section">
-       <TechStack />
+          <TechStack />
         </div>
       </section>
     </div>

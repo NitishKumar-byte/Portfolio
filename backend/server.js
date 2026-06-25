@@ -15,6 +15,7 @@ app.use(express.json());
 
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/projects", require("./routes/project"));
+app.use("/api/messages", require("./routes/message"));
 
 app.get("/", (req, res) => {
   res.send("🚀 Portfolio Backend Running");
