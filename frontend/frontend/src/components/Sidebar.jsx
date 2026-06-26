@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <div className="logo">NK</div>
+      <img src="/asset/hero-bg.png">logo</>
 
       <nav>
         <NavLink to="/">
